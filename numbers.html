@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    </head>
+    <body>
+    <script>
+    function LCD (num1,num2) {
+    for(let count=1; count<=num1; count++) {
+        if( (num2*count) % num1 ==0) {
+            return num2*count;
+        }
+    }
+}
+
+function addFractions(num1,num2,denom1,denom2) {
+    let ansDenom = LCD(denom1,denom2)
+    let factor1 = ansDenom/denom1
+    let factor2 =  ansDenom/denom2 
+    let numer1 = factor1*num1;
+    let numer2 = num2*factor2;
+    let ansnumer = numer1+num2
+    
+    console.log("The answer is "+ansnumer+"/"+ansDenom);
+}
+    addFractions(1,6,3,8);
+    addFractions(2,5,7,12);
+        function commonfactor (num1,num2) {
+
+    new fraction (ansnumer,ansDenom)
+    let mixfrac= ansDenom*wnumr+ansnumer;
+    let wnum = 4;
+    let num1 = 90;
+    let num2 = 105;
+    let factorguess =2;
+            while(!mybool&&factorguess<=num1){
+    let mybool=
+    num1%factorguess==0 &&
+    num2%factorguess==0;
+    if(!mybool)
+        factorguess++;
+    if(mybool)
+return factorguess;
+    }
+    }
+    </script>
+
+    </body>
+</html>
